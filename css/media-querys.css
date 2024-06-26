@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+    .encabezado{
+        margin: 2em;
+    }
+
+    .search-header,
+    .list-link{
+        display: none;
+    }
+
+    .btn-header{
+        display: block;
+    }
+}

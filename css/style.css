@@ -1,0 +1,24 @@
+@import url(./style-header.css);
+
+:root{
+    --font-prime: 'Montserrat', sans-serif;
+    --font-second: 'Poppins', sans-serif;
+    --font-logo: 'Pixel', sans-serif;
+    --grey-dark: #222831;
+    --grey-ligth: #393E46;
+    --orange: #FD7014;
+    --white-bonne: #EEEEEE;
+}
+
+body{
+    font-family: var(--font-prime);
+    color: black;
+    font-size: 16px;
+    background-color: var(--grey-dark);
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(../font/pixelmix.woff);
+    font-weight: normal;
+}
