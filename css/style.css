@@ -1,4 +1,7 @@
+@import url(./media-querys.css);
 @import url(./style-header.css);
+@import url(./front-page/style-front-page.css);
+
 
 :root{
     --font-prime: 'Montserrat', sans-serif;
