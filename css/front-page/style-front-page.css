@@ -62,7 +62,8 @@
     font-size: 25px;
     color: var(--white-bonne);
     line-height: 40px;
-    font-weight: bold;
+    font-weight: 500;
+    font-family: var(--font-second);
 }
 
 .container-subtext{
@@ -87,24 +88,41 @@
 .card{
     margin: 20px;
     padding: 1.5em;
-    background: var(--grey-ligth);
+    background: var(--white-bonne);
     border-radius: 10px;
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow:  1px 1px 5px #080808,
+             -1px -1px 5px #444444;
 }
 
 .card-text{
     font-size: 13px;
     color: var(--orange);
     line-height: 30px;
+    font-weight: 600;
 }
 
 .card-subtext{
     font-size: 18px;
-    color: var(--white-bonne);
+    color: var(--grey-ligth);
+}
+
+.separate-item{
+    font-family: var(--font-second);
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--orange);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .svg-image{
     width: 250px;
     height: 200px;
     margin-top: 40px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
 }

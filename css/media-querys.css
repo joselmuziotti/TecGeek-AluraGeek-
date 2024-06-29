@@ -1,3 +1,5 @@
+@import url(../css/front-page/style-front-page.css);
+
 @media screen and (max-width: 900px) {
     .encabezado{
         margin: 2em;
@@ -10,5 +12,58 @@
 
     .btn-header{
         display: block;
+    }
+
+    .sub-encabezado{
+        height: 20vh;
+    }
+
+    .sub-header-text{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .sub-header-subtext{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .container-text{
+        font-size: 18px;
+    }
+    
+    .container-subtext{
+        font-size: 25px;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+    }
+
+    .parent{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 15px;
+        padding: 2em;
+        border-radius: 15px;
+        width: 500px;
+    }
+    
+    .card-text{
+        font-size: 18px;
+    }
+    
+    .card-subtext{
+        font-size: 20px;
+    }
+
+    .separate-item{
+        justify-content: center;
+        rotate: 90deg;
+    }
+
+    .svg-image{
+        align-self: center;
     }
 }

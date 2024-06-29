@@ -1,0 +1,68 @@
+
+.pie-pagina{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--grey-ligth);
+    color: var(--white-bonne);
+    padding: 2.5em 0;
+    height: 15vh;
+}
+
+.footer-title{
+    color: var(--orange);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer-subtext{
+    font-style: italic;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-list li{
+    margin: .5em 0;
+}
+
+.footer-link{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: var(--white-bonne);
+}
+
+.footer-logo{
+    margin-top: .6em;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.footer-title-bold{
+    font-weight: 700;
+}
+
+.footer-img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-img-gmail{
+    width: 23px;
+    height: 15px;
+}
+
+.footer-discord{
+    width: 30px;
+}
+
+.footer-rrss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
