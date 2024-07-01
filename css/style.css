@@ -19,6 +19,7 @@ body{
     color: black;
     font-size: 16px;
     background-color: var(--grey-dark);
+    cursor: url('../img/cursor.png'), auto;
 }
 
 @font-face {
@@ -26,3 +27,4 @@ body{
     src: url(../font/pixelmix.woff);
     font-weight: normal;
 }
+

@@ -27,26 +27,17 @@
 
 .item-list-header a{
     text-decoration: none;
+    cursor: url('../img/pointer.png'), pointer;
 }
 
 .list-link{
     color: var(--white-bonne);
+    cursor: url('../img/pointer.png'), pointer;
 }
 
-.search-header{
-    border: 1px solid var(--white-bonne);
-    border-radius: 20px;
-    padding: .7em 1em;
-    width: 20vw;
-    outline: none;
-    background-color: transparent;
-}
 
-.search-header::placeholder{
-    font-size: 15px;
-    background: url(../img/icon-search.png) no-repeat 1% center;
-    text-align: center;
-    font-family: var(--font-second) ;
+.header-cursor-text{
+    cursor: url('/img/text.png'), text;
 }
 
 .btn-header{
