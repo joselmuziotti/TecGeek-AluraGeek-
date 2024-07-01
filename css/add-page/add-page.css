@@ -1,0 +1,23 @@
+@import url(./add-form.css);
+
+.search-header{
+    border: 1px solid var(--white-bonne);
+    border-radius: 20px;
+    padding: .7em 1em;
+    width: 18vw;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-header::placeholder{
+    font-size: 13px;
+    letter-spacing: 2px;
+    background: url(/img/icon-search.png) no-repeat 1% center;
+    text-align: center;
+    font-family: var(--font-second) ;
+}
+
+.add-link{
+    color: var(--orange);
+    cursor: url(/img/pointer.png), pointer;
+}
