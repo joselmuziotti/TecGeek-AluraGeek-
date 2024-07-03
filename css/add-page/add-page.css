@@ -1,12 +1,15 @@
 @import url(./add-form.css);
+@import url(./product-card.css);
 
 .search-header{
     border: 1px solid var(--white-bonne);
     border-radius: 20px;
     padding: .7em 1em;
-    width: 18vw;
+    width: 10vw;
     outline: none;
     background-color: transparent;
+    flex: 1;
+    text-align: center;
 }
 
 .search-header::placeholder{

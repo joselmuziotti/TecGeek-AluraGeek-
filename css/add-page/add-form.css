@@ -37,6 +37,50 @@
     width: 50%;
 }
 
+.input-file{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.file-btn{
+    background: var(--orange);
+    display: block;
+    border: none;
+    padding: .5em 3em;
+    border-radius: 30px;
+    font-family: var(--font-second);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white-bonne);
+    cursor: url(/img/add.png), pointer;
+}
+
+.input-file input[type="file"] {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.campo-input-file{
+    margin-top: 10px;
+    cursor: url(/img/add.png), pointer;
+}
+
+.mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
+    color: red;
+}
+
 .form-btn{
     background: var(--orange);
     margin: 2em auto;
