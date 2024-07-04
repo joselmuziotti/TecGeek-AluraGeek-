@@ -1,0 +1,14 @@
+.products-section{
+    background: var(--white-bonne);
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+}
+
+.products-section-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

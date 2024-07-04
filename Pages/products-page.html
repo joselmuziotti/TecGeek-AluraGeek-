@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGeek (AluraGeek)</title>
+    <link rel="shortcut icon" href="../img/TGicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/053908f806.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/media-querys.css">
+    <link rel="stylesheet" href="../css/add-page/add-page.css">
+    <link rel="stylesheet" href="../css/products-page/products-page.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1 class="logo-inicio">
+            Tech<span class="logo-final">Geek</span>
+        </h1>
+
+        <input class="search-header header-cursor-text" id="buscar" type="search" placeholder="Buscar producto" data-buscar>
+
+        <nav class="nav-header">
+            <ul class="list-header">
+                <li class="item-list-header">
+                    <a href="./front-page.html" class="list-link" id="home">Home</a>
+                </li>
+            
+                <li class="item-list-header">
+                    <a href="./add-page.html" class="list-link" id="agregar">Agregar</a>
+                </li>
+
+                <li class="item-list-header">
+                    <a href="./products-page.html" class="list-link" id="producto">Productos</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <ul class="follow-root">
+            <li class="follow-root-page">
+                <a href="./front-page.html" class="add-link">Home</a>
+            </li>
+            <li class="follow-root-page">
+                <a href="./add-page.html" class="add-link">Agregar</a>
+            </li>
+            <li class="follow-root-page">
+                Productos
+            </li>
+        </ul>
+
+        <section class="products-section sub-encabezado-add">
+            <h1 class="form-title">Lista de productos:</h1>
+            <div class="products-section-div" data-lista-big>
+
+            </div>
+ 
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <section>
+            <h2 class="footer-title">
+                Tech<span class="footer-subtext">Geek</span>
+            </h2>
+            <ul class="footer-list">
+                <li>
+                    <a href="./front-page.html" class="footer-link">Home</a>
+                </li>
+                <li>
+                    <a href="./add-page.html" class="footer-link">Agregar</a>
+                </li>
+                <li>
+                    <a href="add-page.html#buscar" class="footer-link">Buscar</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="footer-title">
+                Contacto
+            </h2>
+            <ul class="footer-list">
+                <li>
+                    <a href="mailto:joselmuziotti@gmail.com?subject=Hola!%20trabajemos%20juntos.%20=)&body=Me%20gustaria%20trabajar%20contigo%20en%20mi%20proyecto." class="footer-link"><img src="../img/contacto-rrss/gmail.png" alt="ícono de Gmail" class="footer-img footer-img-gmail"/>joselmuziotti@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://wa.me/56962290260?text=Hola!%20trabajemos%20juntos.%20=)" class="footer-link"><img src="../img/contacto-rrss/whatsapp.png" alt="ícono de Whatsapp" class="footer-img"/>+56 9 99999999</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="">
+            <h2 class="footer-title">
+                Redes Sociales
+            </h2>
+            <ul class="footer-list footer-rrss">
+              <li>
+                <a href="https://www.linkedin.com/in/joselmuziotti/"><img src="../img/contacto-rrss/linkedin.png" alt="ícono de LinkedIn" class="footer-img footer-link"/></a>
+            </li>
+              <li>
+                <a href="https://github.com/joselmuziotti"><img src="../img/contacto-rrss/github.png" alt="ícono de Github" class="footer-img footer-link"/></a>
+            </li>
+              <li>
+                <a href="https://discordapp.com/users/joselmuziotti"><img src="../img/contacto-rrss/discord.png" alt="ícono de whatsapp" class="footer-img footer-discord footer-link"/></a>
+            </li>
+            </ul>
+            <h2 class="footer-logo">
+              <span class="footer-title-bold">Tech</span>Geek
+            </h2>
+          </section>
+    </footer>
+
+<script type="module" src="/js/mostrar-producto-big.js"></script>
+<script type="module" src="/js/agregarProducto.js"></script>
+<script type="module" src="/js/buscarProducto.js"></script>
+</body>
+
+</html>

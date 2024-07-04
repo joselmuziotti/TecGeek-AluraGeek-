@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "imagen": "https://rubikcubestar.com/cdn/shop/files/MugStarWars_14_1024x1024@2x.jpg",
+      "nombre": "Stormtrooper",
+      "valor": "$60.00"
+    },
+    {
+      "id": "2",
+      "imagen": "https://www.nintenderos.com/wp-content/uploads/2021/09/E_OxSabXEAUJ8BG-Cropped.jpg",
+      "nombre": "GameCube",
+      "valor": "35.00"
+    },
+    {
+      "id": "bd2d",
+      "imagen": "https://www.aceroymagia.com/Images/articulo/casco-the-mandalorian/01-Casco-The-Mandalorian.jpg",
+      "nombre": "Casco Mandalorian",
+      "valor": "340.00"
+    },
+    {
+      "id": "1975",
+      "imagen": "https://i.blogs.es/e4bb9f/nintendo-nes-mini/1366_2000.jpg",
+      "nombre": "Nintendo NES",
+      "valor": "150.00"
+    },
+    {
+      "id": "b1cd",
+      "imagen": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/11/xbox-original-2532895.jpg",
+      "nombre": "Xbox Classic",
+      "valor": "200.00"
+    },
+    {
+      "id": "abbe",
+      "imagen": "https://rubikcubestar.com/cdn/shop/files/MugStarWars_14_1024x1024@2x.jpg",
+      "nombre": "Stormtrooper",
+      "valor": "60.00"
+    }
+  ]
+}
