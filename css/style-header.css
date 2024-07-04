@@ -38,8 +38,12 @@
 
 .list-header li > #agregar{
     margin-left: 2em;
+    margin-right: 2em;
 }
 
+.list-header li > #producto{
+    margin-left: 2em;
+}
 
 .item-list-header a{
     text-decoration: none;

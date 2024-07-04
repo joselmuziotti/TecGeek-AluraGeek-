@@ -29,9 +29,7 @@
         <h1 class="logo-inicio">
             Tech<span class="logo-final">Geek</span>
         </h1>
-
-        <input class="search-header header-cursor-text" id="buscar" type="search" placeholder="Buscar producto">
-
+        
         <nav class="nav-header">
             <ul class="list-header">
                 <li class="item-list-header">
@@ -41,26 +39,15 @@
                 <li class="item-list-header">
                     <a href="./add-page.html" class="list-link" id="agregar">Agregar</a>
                 </li>
+
+                <li class="item-list-header">
+                    <a href="./products-page.html" class="list-link" id="producto">Productos</a>
+                </li>
             </ul> 
         </nav>
     </header>
 
-    <section class="sub-encabezado sub-encabezado-add">
-
-        <div class="product-card">
-            <img src="" alt="">
-
-            <div class="product-card-info">
-                <p>Nombre</p>
-
-                <div class="product-card-value">
-                    <p>$ 00.00</p>
-                    <img src="/img/basura.png" alt="Dibujo de un basurero">
-                </div>
-
-            </div>
-
-        </div>
+    <section class="sub-encabezado sub-encabezado-add" data-lista>
         
     </section>
 
@@ -80,25 +67,20 @@
                 <form class="form-body" data-formulario>
                     <fieldset class="form-campo">
                     <label class="label-campo" for="nombre">Nombre del producto</label>
-                    <input name="nombre" id="nombre" class="campo-input header-cursor-text" type="text" minlength="3" required/>
+                    <input name="nombre" id="nombre" class="campo-input header-cursor-text" type="text" minlength="3" maxlength="15" required data-nombre/>
                     <span class="mensaje-error"></span>
                     </fieldset>
 
                     <fieldset class="form-campo">
-                        <label class="label-campo" for="imagen">Imagen URL o Archivo</label>
-                        <input name="imagen" id="imagen" class="campo-input header-cursor-text" type="text" minlength="5" required/>
-
-                            <div class="input-file">
-                                <span class="file-btn">Seleccionar archivo</span>
-                                <input type="file" class="campo-input-file" onchange="nombreDelArchivo()">
-                            </div>
+                        <label class="label-campo" for="imagen">Imagen URL</label>
+                        <input name="imagen" id="imagen" class="campo-input header-cursor-text" type="url" minlength="5" required data-imagen/>
                     
                         <span class="mensaje-error"></span>
                     </fieldset> 
 
                     <fieldset class="form-campo">
                     <label class="label-campo" for="valor">Valor</label>
-                    <input name="valor" id="valor" class="campo-input campo-input-menor header-cursor-text type="number" step="0.01" min="0" minlength="4" required/>
+                    <input name="valor" id="valor" class="campo-input campo-input-menor header-cursor-text type="number" step="0.01" min="0" minlength="4" required data-valor/>
                     <span class="mensaje-error"></span>
                     </fieldset>
 
@@ -164,7 +146,9 @@
             </h2>
           </section>
     </footer>
-<script src="/js/add-form.js"></script>
+<script type="module" src="/js/mostrar-productos.js" ></script>
+<script type="module" src="/js/agregarProducto.js"></script>
+<script type="module" src="/js/buscarProducto.js"></script>
 </body>
 
 </html>
