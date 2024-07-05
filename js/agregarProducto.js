@@ -10,7 +10,12 @@ async function agregarProducto(e){
     const imagen = document.querySelector("[data-imagen]").value;
     const valor = document.querySelector("[data-valor]").value;
 
-    await conexionAPI.agregarProducto(imagen, nombre, valor);
+    try{
+        await conexionAPI.agregarProducto(imagen, nombre, valor);
+    } catch(e){
+        alert(e);
+    }
+    
 }
 
 formulario.addEventListener("submit", e => agregarProducto(e));

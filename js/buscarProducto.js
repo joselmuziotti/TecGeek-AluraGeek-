@@ -1,18 +1,26 @@
 import { conexionAPI } from "./conexionAPI.js";
-import crearCard from "./mostrar-productos.js";
-import crearCardBig from "./mostrar-productos.js"
+import crearCard from "./mostrar-producto-big.js";
 
 async function filtrarProducto(evento){
 
     evento.preventDefault();
 
-    const datosBusqueda = document.querySelector("[data-buscar]").value;
+    const datosBusqueda = document.querySelector("[data-busqueda]").value;
     const busqueda = await conexionAPI.buscarProducto(datosBusqueda);
 
-    // const lista = document.querySelector("[data-lista]");
+    const lista = document.querySelector("[data-lista-big]");
 
-    // busqueda.forEach(producto => lista.appendChild(crearCard(producto.imagen, producto.nombre, producto.valor)));
-    console.log(busqueda)
+    while(lista.firstChild){
+        lista.removeChild(lista.firstChild)
+    }
+
+    busqueda.forEach(card => lista.appendChild(crearCard(card.imagen, card.nombre, card.valor)));
+    
+    if(busqueda.length == 0){
+        lista.innerHTML = `<div class="container-error">
+        <img src="../img/advertencia.png" alt="ícono de error" class="error-icon"/> 
+        <h2 class="mensaje-error-conexion">No hay resultados para '${datosBusqueda}'</h2>`
+    }
 }
 
 const boton = document.querySelector("#buscar");

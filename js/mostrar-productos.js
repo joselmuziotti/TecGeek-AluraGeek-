@@ -2,7 +2,7 @@ import { conexionAPI } from "./conexionAPI.js";
 
 const lista = document.querySelector("[data-lista]");
 
-export default function crearCard(imagen, nombre, valor){
+export default function crearCard(id, imagen, nombre, valor){
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
@@ -13,7 +13,7 @@ export default function crearCard(imagen, nombre, valor){
 
                 <div class="product-card-value">
                     <p>$${valor}</p>
-                    <img src="/img/basura.png" alt="Dibujo de un basurero">
+                    <img src="/img/basura.png" alt="Dibujo de un basurero" data-borrar>
                 </div>
 
             </div>`;
