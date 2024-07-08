@@ -1,5 +1,5 @@
 import { conexionAPI } from "./conexionAPI.js";
-import crearCard from "./mostrar-producto-big.js";
+import crearCard from "./mostrar-productos.js";
 
 async function filtrarProducto(evento){
 
@@ -8,13 +8,14 @@ async function filtrarProducto(evento){
     const datosBusqueda = document.querySelector("[data-busqueda]").value;
     const busqueda = await conexionAPI.buscarProducto(datosBusqueda);
 
-    const lista = document.querySelector("[data-lista-big]");
+
+    const lista = document.querySelector("[data-lista]");
 
     while(lista.firstChild){
         lista.removeChild(lista.firstChild)
     }
 
-    busqueda.forEach(card => lista.appendChild(crearCard(card.imagen, card.nombre, card.valor)));
+    busqueda.forEach(card => lista.appendChild(crearCard(card.imagen, card.nombre, card.valor, card.id, card.type)));
     
     if(busqueda.length == 0){
         lista.innerHTML = `<div class="container-error">
@@ -23,6 +24,15 @@ async function filtrarProducto(evento){
     }
 }
 
+async function recargarProductos() {
+    const lista = document.querySelector("[data-lista]");
+    const productos = await conexionAPI.listarProductos();
+    lista.innerHTML = "";
+    productos.forEach(card => lista.appendChild(crearCard(card.imagen, card.nombre, card.valor, card.id, card.type)));
+}
+
+const inputBusqueda = document.querySelector("[data-busqueda]");
+
 const boton = document.querySelector("#buscar");
 
 boton.addEventListener("keydown", function(evento){
@@ -30,3 +40,9 @@ boton.addEventListener("keydown", function(evento){
         filtrarProducto(evento)
     }
 })
+
+inputBusqueda.addEventListener("input", function() {
+    if (inputBusqueda.value === "") {
+        recargarProductos();
+    }
+});

@@ -12,6 +12,7 @@ async function agregarProducto(e){
 
     try{
         await conexionAPI.agregarProducto(imagen, nombre, valor);
+        window.location.href="../Pages/add-succes-page.html"; 
     } catch(e){
         alert(e);
     }

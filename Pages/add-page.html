@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/053908f806.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/media-querys.css">
     <link rel="stylesheet" href="../css/add-page/add-page.css">
 </head>
@@ -29,13 +29,13 @@
         <h1 class="logo-inicio">
             Tech<span class="logo-final">Geek</span>
         </h1>
-        
+
         <nav class="nav-header">
             <ul class="list-header">
                 <li class="item-list-header">
                     <a href="./front-page.html" class="list-link" id="home">Home</a>
                 </li>
-            
+
                 <li class="item-list-header">
                     <a href="./add-page.html" class="list-link" id="agregar">Agregar</a>
                 </li>
@@ -43,12 +43,15 @@
                 <li class="item-list-header">
                     <a href="./products-page.html" class="list-link" id="producto">Productos</a>
                 </li>
-            </ul> 
+            </ul>
         </nav>
     </header>
 
-    <section class="sub-encabezado sub-encabezado-add" data-lista>
-        
+    <section class="sub-encabezado">
+        <div class="scroll-container">
+            <div class="sub-encabezado-add" data-lista data-card-type="small"></div>
+        </div>
+
     </section>
 
     <main class="main-content">
@@ -62,34 +65,45 @@
         </ul>
 
         <section class="form-section">
-            <h1 class="form-title">Agrega tu producto:</h1>
+            <div class="add-container">
+                <h1 class="form-title">Agrega tu producto:</h1>
 
                 <form class="form-body" data-formulario>
                     <fieldset class="form-campo">
-                    <label class="label-campo" for="nombre">Nombre del producto</label>
-                    <input name="nombre" id="nombre" class="campo-input header-cursor-text" type="text" minlength="3" maxlength="15" required data-nombre/>
-                    <span class="mensaje-error"></span>
+                        <label class="label-campo" for="nombre">Nombre del producto</label>
+                        <input name="nombre" id="nombre" class="campo-input header-cursor-text" type="text"
+                            minlength="3" required data-nombre />
+                        <span class="mensaje-error"></span>
                     </fieldset>
 
                     <fieldset class="form-campo">
                         <label class="label-campo" for="imagen">Imagen URL</label>
-                        <input name="imagen" id="imagen" class="campo-input header-cursor-text" type="url" minlength="5" required data-imagen/>
-                    
+                        <input name="imagen" id="imagen" class="campo-input header-cursor-text" type="url" minlength="5"
+                            required data-imagen />
+
                         <span class="mensaje-error"></span>
-                    </fieldset> 
+                    </fieldset>
 
                     <fieldset class="form-campo">
-                    <label class="label-campo" for="valor">Valor</label>
-                    <input name="valor" id="valor" class="campo-input campo-input-menor header-cursor-text type="number" step="0.01" min="0" minlength="4" required data-valor/>
-                    <span class="mensaje-error"></span>
+                        <label class="label-campo" for="valor">Valor</label>
+                        <input name="valor" id="valor" class="campo-input campo-input-menor header-cursor-text type="
+                            number" step="0.01" min="0" minlength="4" required data-valor />
+                        <span class="mensaje-error"></span>
                     </fieldset>
 
                     <div>
-                        <input value="Agregar" class="form-btn" id="agregar" data-boton-enviar type="submit"/>
+                        <input value="Subir" class="form-btn" id="agregar" data-boton-enviar type="submit" />
                         <span class="mensaje-error"></span>
                     </div>
 
-            </form>
+                </form>
+            </div>
+
+            <div class="add-sucess" style="display: none;">
+                <img src="/img/calidad.png" alt="icono check">
+                <h2 class="add-sucess-text">Su producto se agrego correctamente!</h2>
+            </div>
+
         </section>
 
     </main>
@@ -107,6 +121,9 @@
                     <a href="./add-page.html" class="footer-link">Agregar</a>
                 </li>
                 <li>
+                    <a href="./products-page.html" class="footer-link">Productos</a>
+                </li>
+                <li>
                     <a href="add-page.html#buscar" class="footer-link">Buscar</a>
                 </li>
             </ul>
@@ -118,36 +135,42 @@
             </h2>
             <ul class="footer-list">
                 <li>
-                    <a href="mailto:joselmuziotti@gmail.com?subject=Hola!%20trabajemos%20juntos.%20=)&body=Me%20gustaria%20trabajar%20contigo%20en%20mi%20proyecto." class="footer-link"><img src="../img/contacto-rrss/gmail.png" alt="ícono de Gmail" class="footer-img footer-img-gmail"/>joselmuziotti@gmail.com</a>
+                    <a href="mailto:joselmuziotti@gmail.com?subject=Hola!%20trabajemos%20juntos.%20=)&body=Me%20gustaria%20trabajar%20contigo%20en%20mi%20proyecto."
+                        class="footer-link"><img src="../img/contacto-rrss/gmail.png" alt="ícono de Gmail"
+                            class="footer-img footer-img-gmail" />joselmuziotti@gmail.com</a>
                 </li>
                 <li>
-                    <a href="https://wa.me/56962290260?text=Hola!%20trabajemos%20juntos.%20=)" class="footer-link"><img src="../img/contacto-rrss/whatsapp.png" alt="ícono de Whatsapp" class="footer-img"/>+56 9 99999999</a>
+                    <a href="https://wa.me/56962290260?text=Hola!%20trabajemos%20juntos.%20=)" class="footer-link"><img
+                            src="../img/contacto-rrss/whatsapp.png" alt="ícono de Whatsapp" class="footer-img" />+56 9
+                        99999999</a>
                 </li>
             </ul>
         </section>
 
-        <section class="">
+        <section>
             <h2 class="footer-title">
                 Redes Sociales
             </h2>
             <ul class="footer-list footer-rrss">
-              <li>
+                <li>
                 <a href="https://www.linkedin.com/in/joselmuziotti/"><img src="../img/contacto-rrss/linkedin.png" alt="ícono de LinkedIn" class="footer-img footer-link"/></a>
             </li>
-              <li>
+                <li>
                 <a href="https://github.com/joselmuziotti"><img src="../img/contacto-rrss/github.png" alt="ícono de Github" class="footer-img footer-link"/></a>
             </li>
-              <li>
+                <li>
                 <a href="https://discordapp.com/users/joselmuziotti"><img src="../img/contacto-rrss/discord.png" alt="ícono de whatsapp" class="footer-img footer-discord footer-link"/></a>
             </li>
             </ul>
             <h2 class="footer-logo">
-              <span class="footer-title-bold">Tech</span>Geek
+                <span class="footer-title-bold">Tech</span>Geek
             </h2>
-          </section>
+            <p class="copyright">&copy Copyright - 2024 Jose L. Muziotti</p>
+        </section>
     </footer>
-<script type="module" src="/js/mostrar-productos.js" ></script>
-<script type="module" src="/js/agregarProducto.js"></script>
+
+    <script type="module" src="/js/mostrar-productos.js"></script>
+    <script type="module" src="/js/agregarProducto.js"></script>
 </body>
 
 </html>

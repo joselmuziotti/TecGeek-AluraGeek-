@@ -8,7 +8,24 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background: var(--grey-ligth);
+    background: var(--orange);
+    border-radius: 50px;
+    border: 1px solid var(--grey-dark);
+}
+
+/*scroll sub-encabezado de add-page*/
+
+.scroll-container::-webkit-scrollbar{
+height: 5px;
+}
+
+.scroll-container::-webkit-scrollbar-track{
+    background: var(--grey-dark);
+    border-radius: 50px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb{
+    background: var(--orange);
     border-radius: 50px;
     border: 1px solid var(--grey-dark);
 }

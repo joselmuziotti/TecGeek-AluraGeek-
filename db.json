@@ -1,40 +1,64 @@
 {
   "productos": [
     {
-      "id": "1",
       "imagen": "https://rubikcubestar.com/cdn/shop/files/MugStarWars_14_1024x1024@2x.jpg",
       "nombre": "Stormtrooper",
-      "valor": "$60.00"
+      "valor": "60.00",
+      "id": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "imagen": "https://www.nintenderos.com/wp-content/uploads/2021/09/E_OxSabXEAUJ8BG-Cropped.jpg",
       "nombre": "GameCube",
       "valor": "35.00"
     },
     {
-      "id": "bd2d",
+      "id": 3,
       "imagen": "https://www.aceroymagia.com/Images/articulo/casco-the-mandalorian/01-Casco-The-Mandalorian.jpg",
       "nombre": "Casco Mandalorian",
       "valor": "340.00"
     },
     {
-      "id": "1975",
+      "id": 4,
       "imagen": "https://i.blogs.es/e4bb9f/nintendo-nes-mini/1366_2000.jpg",
       "nombre": "Nintendo NES",
       "valor": "150.00"
     },
     {
-      "id": "b1cd",
+      "id": 5,
       "imagen": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/11/xbox-original-2532895.jpg",
       "nombre": "Xbox Classic",
       "valor": "200.00"
     },
     {
-      "id": "6",
-      "imagen": "https://rubikcubestar.com/cdn/shop/files/MugStarWars_14_1024x1024@2x.jpg",
-      "nombre": "Stormtrooper",
-      "valor": "$60.00"
+      "imagen": "https://cdn.mos.cms.futurecdn.net/k6aGqve6Ksb6pm8BDTrCy-650-80.jpg.webp",
+      "nombre": "GameBoy Classic",
+      "valor": "110.00",
+      "id": 6
+    },
+    {
+      "imagen": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/cb94666237264bf49120c131271310a8_Large.jpg",
+      "nombre": "Atari",
+      "valor": "230.00",
+      "id": 7
+    },
+    {
+      "imagen": "https://img.goodfon.com/wallpaper/nbig/7/79/ilya-dolgov-by-ilya-fr4-dolgov-ilya-fr4-dolgov-by-ilya-dolgo.webp",
+      "nombre": "PlayStation Classic",
+      "valor": "350.00",
+      "id": 8
+    },
+    {
+      "imagen": "https://i0.wp.com/applerescueofdenver.com/wp-content/uploads/imac-g3-graphite.jpg",
+      "nombre": "iMac G3 1998",
+      "valor": "250.00",
+      "id": 9
+    },
+    {
+      "imagen": "https://i.ebayimg.com/images/g/8S0AAOSwxZRlRPpC/s-l1600.jpg",
+      "nombre": "Luke Saber",
+      "valor": "134.00",
+      "id": 10
     }
   ]
 }

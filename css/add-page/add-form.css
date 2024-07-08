@@ -1,3 +1,9 @@
+.add-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .form-section{
     background: var(--white-bonne);
     border-radius:15px;

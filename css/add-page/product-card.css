@@ -1,37 +1,97 @@
+.sub-encabezado-add{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: max-content;
+}
+
+.scroll-container{
+    width: 70%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-container::before,
+.scroll-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.scroll-container::before {
+    left:15%;
+    background: linear-gradient(to right, rgba(238, 238, 238, 1), rgba(255, 255, 255, 0));
+}
+
+.scroll-container::after {
+    right:15%;
+    background: linear-gradient(to left, rgba(238, 238, 238, 1), rgba(255, 255, 255, 0));
+}
+
 .product-card{
     background: var(--grey-ligth);
-    width: 100px;
-    border-radius: 5px;
-    margin: .5em;
     border: 2px solid var(--grey-dark);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 3px;
-}
-
-.product-card p{
     color: var(--white-bonne);
+    height: 200px;
+    box-shadow: 5px 2px 5px 1px var(--grey-ligth);
 }
 
-.sub-encabezado-add{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+.small-card-container .product-card{
+    width: 100px;
+    border-radius: 5px;
+    margin: .5em;
+    padding: 3px;
+    height: auto;
+}
+
+.large-card-container .product-card{
+    width: 150px;
+    border-radius: 10px;
+    margin: 1.5em;
+    padding: 5px;
 }
 
 .product-card img{
     width: 100%;
     height: 70%;
-    border-radius: 5px;
     border: 2px solid var(--grey-dark);
     object-fit: cover;
 }
 
+.small-card-container .product-card img{
+    border-radius: 5px;
+}
+
+.large-card-container .product-card img{
+    border-radius: 8px;
+}
+
 .product-card-info{
-    font-size: 10px;
     width: 100%;
+}
+
+.small-card-container .product-card-info p{
+    font-size: 10px;
+    white-space: nowrap;
+    font-weight: 100;
+    overflow: hidden;
+    text-transform: ellipsis;
+}
+
+.large-card-container .product-card-info p{
+    font-size: 13px;
+    white-space: nowrap;
+    font-weight: 100;
+    overflow: hidden;
+    text-transform: ellipsis;
 }
 
 .product-card-info p{
@@ -50,12 +110,20 @@
 }
 
 .product-card-value img{
-    background-color: transparent;
     width: 15px;
     border: 0;
 }
 
-.product-card-value p{
+.large-card-container .product-card-value img{
+    width: 18px;
+}
+
+.small-card-container .product-card-value p{
     font-size: 10px;
+    font-weight: 600;
+}
+
+.large-card-container .product-card-value p{
+    font-size: 12px;
     font-weight: 600;
 }

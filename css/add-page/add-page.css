@@ -1,6 +1,6 @@
 @import url(./add-form.css);
+@import url(./add-sucess.css);
 @import url(./product-card.css);
-@import url(./product-card-big.css);
 
 .search-header{
     border: 1px solid var(--white-bonne);
@@ -24,4 +24,21 @@
 .add-link{
     color: var(--orange);
     cursor: url(/img/pointer.png), pointer;
+}
+
+.mensaje-error-conexion{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.container-error{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.error-icon{
+    width: 10vw;
 }
