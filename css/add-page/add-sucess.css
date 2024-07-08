@@ -1,0 +1,16 @@
+.add-sucess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-sucess img{
+    width: 20vw;
+}
+
+.add-sucess-text{
+    font-size: 1.5em;
+    font-family: 400;
+    color: var(--grey-dark);
+    margin-bottom: 2em;
+}
