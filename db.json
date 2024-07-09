@@ -7,12 +7,6 @@
       "id": 1
     },
     {
-      "id": 2,
-      "imagen": "https://www.nintenderos.com/wp-content/uploads/2021/09/E_OxSabXEAUJ8BG-Cropped.jpg",
-      "nombre": "GameCube",
-      "valor": "35.00"
-    },
-    {
       "id": 3,
       "imagen": "https://www.aceroymagia.com/Images/articulo/casco-the-mandalorian/01-Casco-The-Mandalorian.jpg",
       "nombre": "Casco Mandalorian",
@@ -59,6 +53,12 @@
       "nombre": "Luke Saber",
       "valor": "134.00",
       "id": 10
+    },
+    {
+      "imagen": "https://sm.ign.com/t/ign_latam/screenshot/default/cubecube20_eu85.1280.jpg",
+      "nombre": "GameCube",
+      "valor": "130.00",
+      "id": 11
     }
   ]
 }
