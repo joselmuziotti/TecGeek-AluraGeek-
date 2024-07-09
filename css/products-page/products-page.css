@@ -31,3 +31,26 @@
 .error-icon{
     width: 200px;
 }
+
+.search-container-mobile{
+    display: none;
+}
+
+.search-bar{
+    border: 1px solid var(--white-bonne);
+    border-radius: 20px;
+    padding: .7em 1em;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar::placeholder{
+    font-size: 13px;
+    letter-spacing: 2px;
+    background: url(/img/icon-search.png) no-repeat 1% center;
+    text-align: center;
+    font-family: var(--font-second) ;
+}

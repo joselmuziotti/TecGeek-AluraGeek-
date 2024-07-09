@@ -39,6 +39,11 @@
     margin-top: .5em;
 }
 
+.campo-input::placeholder{
+    font-family: var(--font-second);
+    font-size: 15px;
+}
+
 .campo-input-menor{
     width: 50%;
 }

@@ -45,6 +45,15 @@
     margin-left: 2em;
 }
 
+.item-list-header{
+    display: flex;
+    align-items: center;
+}
+
+.icon-mobile{
+    display: none;
+}
+
 .item-list-header a{
     text-decoration: none;
     cursor: url('../img/pointer.png'), pointer;
