@@ -39,7 +39,7 @@ boton.addEventListener("keydown", function(evento){
     if(evento.key === 'Enter' || evento.key === 'Intro'){
         filtrarProducto(evento)
     }
-})
+});
 
 inputBusqueda.addEventListener("input", function() {
     if (inputBusqueda.value === "") {
