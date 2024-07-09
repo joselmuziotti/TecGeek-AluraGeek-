@@ -20,3 +20,11 @@ async function agregarProducto(e){
 }
 
 formulario.addEventListener("submit", e => agregarProducto(e));
+
+const boton = document.querySelector("#agregar");
+
+boton.addEventListener("keydown", function(evento){
+    if(evento.key === 'Enter' || evento.key === 'Intro'){
+        agregarProducto(evento)
+    }
+});
