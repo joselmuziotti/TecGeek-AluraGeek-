@@ -53,35 +53,25 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 
 <div align="center">
 
-![MacBook Emulator](https://www.webmobilefirst.com/en/screencasts/wVoFucodiB/)
+![MacBook Emulator](https://github.com/joselmuziotti/TecGeek-AluraGeek-/blob/main/img/Video%20README.gif)
 
   </div>
 
 ###
 
-## Ferramentas utilizadas
+## Herramientas utilizadas
 
-<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-
-<a href="https://developer.android.com/studio" target="_blank"> <img src="https://developer.android.com/images/logos/android.svg" alt="androidStudio" width="40" height="40"/> </a> <a href="https://firebase.google.com/?hl=pt" target="_blank"> <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_96dp.png" alt="firebase" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="firebase" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/> </a> 
 
 ###
 
-## Acesso ao projeto
+## Acesso al proyecto
 
-Você pode [acessar o código fonte do projeto](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
-
-## Abrir e rodar o projeto
-
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
-
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
-
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
+Puedes [acceder a proyecto](tec-geek-alura-geek.vercel.app)
+ 
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
-| :---: | :---: 
+[<img src="https://github.com/joselmuziotti.png" width=80><br><sub>Jose Luis Muziotti</sub>](https://github.com/joselmuziotti) 
