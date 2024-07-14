@@ -20,6 +20,8 @@
 
 - [Desenvolvedores](#desenvolvedores)
 
+###
+
 ## Descripción del proyecto 
 
 <p align="justify">
@@ -32,6 +34,8 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 - Añadir al carrito
   
 </p>
+
+###
 
 ## Pasos funcionales
 
@@ -48,6 +52,8 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 :heavy_check_mark: `6:` ¡Listo! Tu producto ya está publicado.
 
 ![Proceso para agregar un producto](https://github.com/joselmuziotti/TecGeek-AluraGeek-/blob/main/img/steps%20README.PNG)
+
+###
 
 ## Aplicación
 
@@ -70,8 +76,9 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 ## Acesso al proyecto
 
 Puedes [acceder a proyecto](tec-geek-alura-geek.vercel.app)
- 
 
-## Desenvolvedores
+###
+
+## Desarrolladores
 
 [<img src="https://github.com/joselmuziotti.png" width=80><br><sub>Jose Luis Muziotti</sub>](https://github.com/joselmuziotti) 
