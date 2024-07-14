@@ -31,7 +31,6 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 - Registrarse
 - Añadir al carrito
   
-![Proceso para agregar un producto](https://github.com/joselmuziotti/TecGeek-AluraGeek-/blob/main/img/steps%20README.PNG)
 </p>
 
 ## Pasos funcionales
@@ -48,11 +47,13 @@ El sistema permite EN ESTE MOMENTO agregar productos a la venta. PRÓXIMAMENTE s
 
 :heavy_check_mark: `6:` ¡Listo! Tu producto ya está publicado.
 
+![Proceso para agregar un producto](https://github.com/joselmuziotti/TecGeek-AluraGeek-/blob/main/img/steps%20README.PNG)
+
 ## Aplicación
 
 <div align="center">
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+![MacBook Emulator](https://www.webmobilefirst.com/en/screencasts/wVoFucodiB/)
 
   </div>
 
