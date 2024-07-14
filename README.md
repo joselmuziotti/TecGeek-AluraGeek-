@@ -8,17 +8,17 @@
 
 ### Temas
 
-- [Descripción del proyecto](#descripcion)
+- [Descripción del proyecto](#descrip)
 
-- [Pasos funcionales](#proceso)
+- [Pasos funcionales](#pasos)
 
-- [Aplicación](#aplicacion)
+- [Aplicación](#apli)
 
 - [Herramientas utilizadas](#herramientas-utilizadas)
 
 - [Acesso al proyecto](#acesso-al-proyecto)
 
-- [Desenvolvedores](#desenvolvedores)
+- [Desarrolladores](#desarrolladores)
 
 ###
 
