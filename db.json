@@ -59,6 +59,12 @@
       "nombre": "GameCube",
       "valor": "130.00",
       "id": 11
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/61yHZHqC4lL._AC_SL1500_.jpg",
+      "nombre": "Lava Lamp",
+      "valor": "34.99",
+      "id": 12
     }
   ]
 }
